@@ -1,0 +1,149 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.hitech"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\Harekampreet Singh\OneDrive\Desktop\HiTechMotors\android\app\src\main\AndroidManifest.xml:3:5-67
+11-->C:\Users\Harekampreet Singh\OneDrive\Desktop\HiTechMotors\android\app\src\main\AndroidManifest.xml:3:22-64
+12    <uses-permission android:name="android.permission.CAMERA" />
+12-->C:\Users\Harekampreet Singh\OneDrive\Desktop\HiTechMotors\android\app\src\main\AndroidManifest.xml:4:5-6:3
+12-->C:\Users\Harekampreet Singh\OneDrive\Desktop\HiTechMotors\android\app\src\main\AndroidManifest.xml:5:3-43
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->C:\Users\Harekampreet Singh\OneDrive\Desktop\HiTechMotors\android\app\src\main\AndroidManifest.xml:7:1-9:3
+13-->C:\Users\Harekampreet Singh\OneDrive\Desktop\HiTechMotors\android\app\src\main\AndroidManifest.xml:8:3-59
+14    <uses-permission android:name="android.permission.CAMERA" />
+14-->C:\Users\Harekampreet Singh\OneDrive\Desktop\HiTechMotors\android\app\src\main\AndroidManifest.xml:4:5-6:3
+14-->C:\Users\Harekampreet Singh\OneDrive\Desktop\HiTechMotors\android\app\src\main\AndroidManifest.xml:5:3-43
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->C:\Users\Harekampreet Singh\OneDrive\Desktop\HiTechMotors\android\app\src\main\AndroidManifest.xml:7:1-9:3
+15-->C:\Users\Harekampreet Singh\OneDrive\Desktop\HiTechMotors\android\app\src\main\AndroidManifest.xml:8:3-59
+16    <!--
+17    This manifest file is used only by Gradle to configure debug-only capabilities
+18    for React Native Apps.
+19    -->
+20    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+20-->[com.facebook.react:react-android:0.73.2] C:\Users\Harekampreet Singh\.gradle\caches\transforms-3\d10d040f6dc36d35e250d48d5ebb15bd\transformed\jetified-react-android-0.73.2-debug\AndroidManifest.xml:16:5-78
+20-->[com.facebook.react:react-android:0.73.2] C:\Users\Harekampreet Singh\.gradle\caches\transforms-3\d10d040f6dc36d35e250d48d5ebb15bd\transformed\jetified-react-android-0.73.2-debug\AndroidManifest.xml:16:22-75
+21    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+21-->[com.facebook.flipper:flipper:0.201.0] C:\Users\Harekampreet Singh\.gradle\caches\transforms-3\9b2c28bd5719adb7e465469e2ca76c12\transformed\jetified-flipper-0.201.0\AndroidManifest.xml:14:5-76
+21-->[com.facebook.flipper:flipper:0.201.0] C:\Users\Harekampreet Singh\.gradle\caches\transforms-3\9b2c28bd5719adb7e465469e2ca76c12\transformed\jetified-flipper-0.201.0\AndroidManifest.xml:14:22-73
+22
+23    <permission
+23-->[androidx.core:core:1.9.0] C:\Users\Harekampreet Singh\.gradle\caches\transforms-3\13659b94c66de92d98d7f8af61234b95\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+24        android:name="com.hitech.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+24-->[androidx.core:core:1.9.0] C:\Users\Harekampreet Singh\.gradle\caches\transforms-3\13659b94c66de92d98d7f8af61234b95\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+25        android:protectionLevel="signature" />
+25-->[androidx.core:core:1.9.0] C:\Users\Harekampreet Singh\.gradle\caches\transforms-3\13659b94c66de92d98d7f8af61234b95\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+26
+27    <uses-permission android:name="com.hitech.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+27-->[androidx.core:core:1.9.0] C:\Users\Harekampreet Singh\.gradle\caches\transforms-3\13659b94c66de92d98d7f8af61234b95\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+27-->[androidx.core:core:1.9.0] C:\Users\Harekampreet Singh\.gradle\caches\transforms-3\13659b94c66de92d98d7f8af61234b95\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+28
+29    <application
+29-->C:\Users\Harekampreet Singh\OneDrive\Desktop\HiTechMotors\android\app\src\main\AndroidManifest.xml:13:5-32:19
+30        android:name="com.hitech.MainApplication"
+30-->C:\Users\Harekampreet Singh\OneDrive\Desktop\HiTechMotors\android\app\src\main\AndroidManifest.xml:14:7-38
+31        android:allowBackup="false"
+31-->C:\Users\Harekampreet Singh\OneDrive\Desktop\HiTechMotors\android\app\src\main\AndroidManifest.xml:18:7-34
+32        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+32-->[androidx.core:core:1.9.0] C:\Users\Harekampreet Singh\.gradle\caches\transforms-3\13659b94c66de92d98d7f8af61234b95\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+33        android:debuggable="true"
+34        android:extractNativeLibs="true"
+35        android:icon="@mipmap/ic_launcher"
+35-->C:\Users\Harekampreet Singh\OneDrive\Desktop\HiTechMotors\android\app\src\main\AndroidManifest.xml:16:7-41
+36        android:label="@string/app_name"
+36-->C:\Users\Harekampreet Singh\OneDrive\Desktop\HiTechMotors\android\app\src\main\AndroidManifest.xml:15:7-39
+37        android:roundIcon="@mipmap/ic_launcher_round"
+37-->C:\Users\Harekampreet Singh\OneDrive\Desktop\HiTechMotors\android\app\src\main\AndroidManifest.xml:17:7-52
+38        android:theme="@style/AppTheme"
+38-->C:\Users\Harekampreet Singh\OneDrive\Desktop\HiTechMotors\android\app\src\main\AndroidManifest.xml:19:7-38
+39        android:usesCleartextTraffic="true" >
+39-->C:\Users\Harekampreet Singh\OneDrive\Desktop\HiTechMotors\android\app\src\debug\AndroidManifest.xml:6:9-44
+40        <activity
+40-->C:\Users\Harekampreet Singh\OneDrive\Desktop\HiTechMotors\android\app\src\main\AndroidManifest.xml:20:7-31:18
+41            android:name="com.hitech.MainActivity"
+41-->C:\Users\Harekampreet Singh\OneDrive\Desktop\HiTechMotors\android\app\src\main\AndroidManifest.xml:21:9-37
+42            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+42-->C:\Users\Harekampreet Singh\OneDrive\Desktop\HiTechMotors\android\app\src\main\AndroidManifest.xml:23:9-118
+43            android:exported="true"
+43-->C:\Users\Harekampreet Singh\OneDrive\Desktop\HiTechMotors\android\app\src\main\AndroidManifest.xml:26:9-32
+44            android:label="@string/app_name"
+44-->C:\Users\Harekampreet Singh\OneDrive\Desktop\HiTechMotors\android\app\src\main\AndroidManifest.xml:22:9-41
+45            android:launchMode="singleTask"
+45-->C:\Users\Harekampreet Singh\OneDrive\Desktop\HiTechMotors\android\app\src\main\AndroidManifest.xml:24:9-40
+46            android:windowSoftInputMode="adjustResize" >
+46-->C:\Users\Harekampreet Singh\OneDrive\Desktop\HiTechMotors\android\app\src\main\AndroidManifest.xml:25:9-51
+47            <intent-filter>
+47-->C:\Users\Harekampreet Singh\OneDrive\Desktop\HiTechMotors\android\app\src\main\AndroidManifest.xml:27:9-30:25
+48                <action android:name="android.intent.action.MAIN" />
+48-->C:\Users\Harekampreet Singh\OneDrive\Desktop\HiTechMotors\android\app\src\main\AndroidManifest.xml:28:13-65
+48-->C:\Users\Harekampreet Singh\OneDrive\Desktop\HiTechMotors\android\app\src\main\AndroidManifest.xml:28:21-62
+49
+50                <category android:name="android.intent.category.LAUNCHER" />
+50-->C:\Users\Harekampreet Singh\OneDrive\Desktop\HiTechMotors\android\app\src\main\AndroidManifest.xml:29:13-73
+50-->C:\Users\Harekampreet Singh\OneDrive\Desktop\HiTechMotors\android\app\src\main\AndroidManifest.xml:29:23-70
+51            </intent-filter>
+52        </activity>
+53
+54        <provider
+54-->[:react-native-image-picker] C:\Users\Harekampreet Singh\OneDrive\Desktop\HiTechMotors\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:8:9-16:20
+55            android:name="com.imagepicker.ImagePickerProvider"
+55-->[:react-native-image-picker] C:\Users\Harekampreet Singh\OneDrive\Desktop\HiTechMotors\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:13-63
+56            android:authorities="com.hitech.imagepickerprovider"
+56-->[:react-native-image-picker] C:\Users\Harekampreet Singh\OneDrive\Desktop\HiTechMotors\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:13-71
+57            android:exported="false"
+57-->[:react-native-image-picker] C:\Users\Harekampreet Singh\OneDrive\Desktop\HiTechMotors\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-37
+58            android:grantUriPermissions="true" >
+58-->[:react-native-image-picker] C:\Users\Harekampreet Singh\OneDrive\Desktop\HiTechMotors\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-47
+59            <meta-data
+59-->[:react-native-image-picker] C:\Users\Harekampreet Singh\OneDrive\Desktop\HiTechMotors\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-15:70
+60                android:name="android.support.FILE_PROVIDER_PATHS"
+60-->[:react-native-image-picker] C:\Users\Harekampreet Singh\OneDrive\Desktop\HiTechMotors\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:17-67
+61                android:resource="@xml/imagepicker_provider_paths" />
+61-->[:react-native-image-picker] C:\Users\Harekampreet Singh\OneDrive\Desktop\HiTechMotors\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:17-67
+62        </provider>
+63
+64        <activity
+64-->[com.facebook.react:react-android:0.73.2] C:\Users\Harekampreet Singh\.gradle\caches\transforms-3\d10d040f6dc36d35e250d48d5ebb15bd\transformed\jetified-react-android-0.73.2-debug\AndroidManifest.xml:19:9-21:40
+65            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+65-->[com.facebook.react:react-android:0.73.2] C:\Users\Harekampreet Singh\.gradle\caches\transforms-3\d10d040f6dc36d35e250d48d5ebb15bd\transformed\jetified-react-android-0.73.2-debug\AndroidManifest.xml:20:13-77
+66            android:exported="false" />
+66-->[com.facebook.react:react-android:0.73.2] C:\Users\Harekampreet Singh\.gradle\caches\transforms-3\d10d040f6dc36d35e250d48d5ebb15bd\transformed\jetified-react-android-0.73.2-debug\AndroidManifest.xml:21:13-37
+67
+68        <provider
+68-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Harekampreet Singh\.gradle\caches\transforms-3\faa3592d2fc203d6c74b9a5f601058a1\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+69            android:name="androidx.startup.InitializationProvider"
+69-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Harekampreet Singh\.gradle\caches\transforms-3\faa3592d2fc203d6c74b9a5f601058a1\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+70            android:authorities="com.hitech.androidx-startup"
+70-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Harekampreet Singh\.gradle\caches\transforms-3\faa3592d2fc203d6c74b9a5f601058a1\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+71            android:exported="false" >
+71-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Harekampreet Singh\.gradle\caches\transforms-3\faa3592d2fc203d6c74b9a5f601058a1\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+72            <meta-data
+72-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Harekampreet Singh\.gradle\caches\transforms-3\faa3592d2fc203d6c74b9a5f601058a1\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+73                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+73-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Harekampreet Singh\.gradle\caches\transforms-3\faa3592d2fc203d6c74b9a5f601058a1\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+74                android:value="androidx.startup" />
+74-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Harekampreet Singh\.gradle\caches\transforms-3\faa3592d2fc203d6c74b9a5f601058a1\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+75            <meta-data
+75-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Harekampreet Singh\.gradle\caches\transforms-3\71b91ea8216105cda74b0317da307340\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+76                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+76-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Harekampreet Singh\.gradle\caches\transforms-3\71b91ea8216105cda74b0317da307340\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+77                android:value="androidx.startup" />
+77-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Harekampreet Singh\.gradle\caches\transforms-3\71b91ea8216105cda74b0317da307340\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+78        </provider>
+79
+80        <meta-data
+80-->[com.facebook.soloader:soloader:0.10.5] C:\Users\Harekampreet Singh\.gradle\caches\transforms-3\03d018e18e7118763cc731de8f689ba0\transformed\jetified-soloader-0.10.5\AndroidManifest.xml:12:9-14:37
+81            android:name="com.facebook.soloader.enabled"
+81-->[com.facebook.soloader:soloader:0.10.5] C:\Users\Harekampreet Singh\.gradle\caches\transforms-3\03d018e18e7118763cc731de8f689ba0\transformed\jetified-soloader-0.10.5\AndroidManifest.xml:13:13-57
+82            android:value="false" />
+82-->[com.facebook.soloader:soloader:0.10.5] C:\Users\Harekampreet Singh\.gradle\caches\transforms-3\03d018e18e7118763cc731de8f689ba0\transformed\jetified-soloader-0.10.5\AndroidManifest.xml:14:13-34
+83    </application>
+84
+85</manifest>
